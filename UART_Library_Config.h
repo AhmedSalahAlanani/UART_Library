@@ -9,9 +9,9 @@
 #endif
  					
 #define AsynchronousSpeed		1		//1 for normal speed or 0 for double speed
-#define DataBitSize				8		//5 for 5-bit data bit length , 6 for 6-bit data bit length , 7 for 7-bit data bit length , 8 for 8-bit data bit length , 9 for 9-bit data bit length
+#define DataBitSize				8		//5 for 5-bit data bit length , 6 for 6-bit data bit length , 7 for 7-bit data bit length , 8 for 8-bit data bit length
 #define parity					2		//0 for even parity , 1 for odd parity
-#define StopBits				2		//1 for 1 stop bit , 2 for 2 stop bits
+#define StopBits				1		//1 for 1 stop bit , 2 for 2 stop bits
 
 #endif
 

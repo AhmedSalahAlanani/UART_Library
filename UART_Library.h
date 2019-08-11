@@ -6,8 +6,8 @@
 
 //Functions prototypes
 void UARTInit(void);
-uint16_t UARTReceive(void);
-void UARTTransmit(uint16_t data);
+uint8_t UARTReceive(void);
+void UARTTransmit(uint8_t data);
 void UARTReceiveInterruptEnable(void);
 void UARTTransmitInterruptEnable(void);
 void UARTDataRegisterEmptyInterruptEnable(void);
